@@ -1,0 +1,14 @@
+<header class="bg-gray-900 text-white p-4 flex justify-between items-center">
+  <h1 class="text-xl font-bold">Abhishek Portfolio</h1>
+  <nav>
+    <%= link_to "Home", root_path, class: "px-3 hover:underline" %>
+    <%= link_to "About", about_path, class: "px-3 hover:underline" %>
+    <%= link_to "Projects", projects_path, class: "px-3 hover:underline" %>
+    <%= link_to "Resume", resume_path, class: "px-3 hover:underline" %>
+    <%= link_to "Contact", contact_path, class: "px-3 hover:underline" %>
+  </nav>
+  <button data-controller="theme" data-action="click->theme#toggle" 
+          class="ml-4 bg-gray-700 px-3 py-1 rounded text-sm">
+    Toggle Dark Mode
+  </button>
+</header>

@@ -1,0 +1,21 @@
+- company: Backbencher Technologies
+  role: Software Engineer
+  period: May 2023 – July 2025
+  details:
+    - Worked on Opigo, FixBiban, Fantastic We, and Employee Management System.
+    - Deployed multiple apps with AWS EC2 & Capistrano.
+    - Implemented payment systems, authentication, role-based access, and test cases.
+
+- company: Guruji Products Pvt Ltd
+  role: MIS Analyst / Sales Coordinator
+  period: Dec 2022 – Apr 2023
+  details:
+    - Managed MIS reports and sales coordination.
+    - Assisted sales teams in data analysis.
+
+- company: IOTA Academy
+  role: Intern
+  period: 2022
+  details:
+    - Worked on 3 practice projects.
+    - Learned basics of full-stack development.

@@ -1,0 +1,19 @@
+- name: Opigo
+  description: Trading platform with OpenAI summary generation, pagination, and ActiveAdmin dashboard. Deployed on AWS EC2 with Capistrano.
+  duration: 4 months
+  role: Backend Developer
+
+- name: FixBiban
+  description: UrbanCompany-like platform with wallet, Moyasar payment, Firebase push notifications, and AWS EC2 deployment.
+  duration: 6 months
+  role: Backend Developer
+
+- name: Fantastic We
+  description: Gaming platform with custom keyboard, player/instructor roles, themed admin dashboard, and backend test cases.
+  duration: 5 months
+  role: Full Stack Developer
+
+- name: Employee Management System
+  description: HR management system with hiring, attendance, leave approvals, and performance tracking. Built with Devise, CanCanCan, Bootstrap.
+  duration: 6 months
+  role: Full Stack Developer

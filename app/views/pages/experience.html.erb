@@ -1,0 +1,13 @@
+<div class="space-y-6">
+  <% @experiences.each do |exp| %>
+    <div class="p-6 bg-white dark:bg-gray-800 rounded-2xl shadow">
+      <h3 class="text-2xl font-semibold"><%= exp["company"] %></h3>
+      <p class="text-gray-600 dark:text-gray-400"><%= exp["role"] %> | <%= exp["period"] %></p>
+      <ul class="list-disc pl-6 mt-3 space-y-1">
+        <% exp["details"].each do |d| %>
+          <li><%= d %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+</div>
